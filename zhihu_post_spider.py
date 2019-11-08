@@ -1,10 +1,9 @@
 import time
 import json
 from urllib import request
-from urllib import parse
-from lxml import etree
 from urllib import error
 from http import cookiejar
+from lxml import etree
 
 def zhihu_post_spider():
     """
